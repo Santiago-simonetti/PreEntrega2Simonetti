@@ -178,9 +178,12 @@ footer a {
     }
 }
 
-article p{
+article p {
     text-align: justify;
 }
+
 /*==== servicios  ====*/
-.titulo__{    text-align: center;
-    padding: 3rem;}
+.titulo__ {
+    text-align: center;
+    padding: 3rem;
+}
