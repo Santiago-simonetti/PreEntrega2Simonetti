@@ -1,0 +1,186 @@
+@font-face {
+    font-family: "gotham";
+    font-style: normal;
+    src: url(../font/gotham-medium.OTF);
+}
+
+@font-face {
+    font-family: "gothambold";
+    font-style: bold;
+    src: url(../font/gotham-bold.OTF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+h2 {
+    font-family: "gothambold", sans-serif;
+}
+
+h3 {
+    font-family: "gothambold", sans-serif;
+}
+
+/*==== header ====*/
+header {
+    background-color: black;
+    color: white;
+    padding: 3rem;
+    font-size: 1.1rem;
+    font-family: "gotham", sans-serif;
+}
+
+header h1 {
+    max-width: 60%;
+    text-align: center;
+}
+
+.nav-lista {
+    text-align: center;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+@media (min-width: 1200px) and (orientation:landscape) {
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        h1 {
+            max-width: 40%;
+        }
+    }
+
+    .nav-lista {
+        gap: 3rem header
+    }
+}
+
+/*==== main ====*/
+.mainindex {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-size: 1.3rem;
+
+}
+
+.mainindex h2 {
+    text-align: center;
+}
+
+.video-intro {
+    width: 100%;
+    height: 100vh;
+}
+
+/*==== footer  ====*/
+footer {
+    background-color: rgb(31, 31, 31);
+    color: rgb(119, 119, 119);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+footer a {
+    color: rgb(119, 119, 119);
+}
+
+.redes {
+    display: flex;
+    gap: 1rem;
+    padding-top: 3rem;
+    font-size: 1.5rem;
+}
+
+@media (min-width: 1200px) and (orientation:landscape) {
+    footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .redes {
+        padding: 0%;
+        display: flex;
+        justify-content: space-center;
+        gap: 1rem;
+    }
+}
+
+/*==== nosotros  ====*/
+.nosotrosmain {
+    padding: 5rem;
+    object-fit: contain;
+
+}
+
+.nosotrosmain h2 {
+    text-align: center;
+    gap: 3rem;
+    padding-bottom: 3rem;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: 1.2fr 2fr;
+    grid-template-rows: 1fr auto;
+    width: 95%;
+    gap: 5rem;
+    justify-items: center;
+    padding-bottom: 3rem;
+}
+
+.img3 {
+    grid-column: span 2;
+    width: 75%;
+}
+
+.quienesart {
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1200px) and (orientation:landscape) {
+    .nosotrosmain2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .quienesart {
+        padding: 5rem
+    }
+}
+
+article p{
+    text-align: justify;
+}
+/*==== servicios  ====*/
+.titulo__{    text-align: center;
+    padding: 3rem;}
