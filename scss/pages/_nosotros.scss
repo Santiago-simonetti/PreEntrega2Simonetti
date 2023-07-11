@@ -1,0 +1,18 @@
+.nosotrosmain {
+    object-fit: contain;
+    .nosotrosmain img{padding-bottom:1rem;}
+}
+@media (min-width: 1200px) and (orientation:landscape) {
+    .nosotrosmain2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .quienesart {
+        padding-left: 5rem; 
+    }
+}
+
+article p {
+    text-align: justify;
+}

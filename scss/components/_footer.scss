@@ -1,0 +1,32 @@
+footer {
+    background-color: rgb(31, 31, 31);
+    color: rgb(119, 119, 119);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: sans-serif;
+    a {
+        color: rgb(119, 119, 119);
+    }
+}
+.redes {
+    display: flex;
+    gap: 1rem;
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    align-items: center;
+    :hover{
+        color: rgb(196, 196, 196);
+        font-size: 2rem;
+    }
+}
+@media (min-width: 1200px) and (orientation:landscape) {
+    footer {
+        display: flex;
+        flex-direction: row;
+align-items: center;
+.redes{padding-top: 0}
+    }
+
+}

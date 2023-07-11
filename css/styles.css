@@ -1,126 +1,128 @@
 @font-face {
-    font-family: "gotham";
-    font-style: normal;
-    src: url(../font/gotham-medium.OTF);
+  font-family: "gotham";
+  font-style: normal;
+  src: url(../font/gotham-medium.OTF);
 }
-
 @font-face {
-    font-family: "gothambold";
-    font-style: bold;
-    src: url(../font/gotham-bold.OTF);
+  font-family: "gothambold";
+  font-style: bold;
+  src: url(../font/gotham-bold.OTF);
 }
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 ul,
 ol {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 img, iframe {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 h2 {
-    font-family: "gothambold", sans-serif;
+  font-family: "gothambold", sans-serif;
 }
 
 h3 {
-    font-family: "gothambold", sans-serif;
+  font-family: "gothambold", sans-serif;
 }
 
-/*==== header ====*/
-h1{padding: 1rem;}
-.nav-link {color: white;}
-/*==== main ====*/
-.mainindex {
-    padding: 5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-    font-size: 1.3rem;
-
-}
-
-.mainindex h2 {
-    text-align: center;
-}
-
-.video-intro {
-    width: 100%;
-    height: 100vh;
-}
-
-/*==== footer  ====*/
 footer {
-    background-color: rgb(31, 31, 31);
-    color: rgb(119, 119, 119);
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-family: sans-serif;
+  background-color: rgb(31, 31, 31);
+  color: rgb(119, 119, 119);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: sans-serif;
 }
-
 footer a {
-    color: rgb(119, 119, 119);
+  color: rgb(119, 119, 119);
 }
 
 .redes {
+  display: flex;
+  gap: 1rem;
+  padding-top: 3rem;
+  font-size: 1.5rem;
+  align-items: center;
+}
+.redes :hover {
+  color: rgb(196, 196, 196);
+  font-size: 2rem;
+}
+
+@media (min-width: 1200px) and (orientation: landscape) {
+  footer {
     display: flex;
-    gap: 1rem;
-    padding-top: 3rem;
-    font-size: 1.5rem;
+    flex-direction: row;
+    align-items: center;
+  }
+  footer .redes {
+    padding-top: 0;
+  }
+}
+h1 {
+  padding: 1rem;
 }
 
-@media (min-width: 1200px) and (orientation:landscape) {
-    footer {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .redes {
-        padding: 0%;
-        display: flex;
-        justify-content: space-center;
-        gap: 1rem;
-    }
+.nav-link {
+  color: white;
 }
 
-/*==== nosotros  ====*/
+.mainindex {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  font-size: 1.3rem;
+}
+
+.mainindex h2 {
+  text-align: center;
+}
+
+.video-intro {
+  width: 100%;
+  height: 100vh;
+}
+
+.contacto {
+  padding-bottom: 2rem;
+}
+
 .nosotrosmain {
-    object-fit: contain;
+  object-fit: contain;
 }
-.nosotrosmain img{padding-bottom:1rem;}
-    
-
-@media (min-width: 1200px) and (orientation:landscape) {
-    .nosotrosmain2 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .quienesart {
-        padding-left: 5rem; 
-    }
+.nosotrosmain .nosotrosmain img {
+  padding-bottom: 1rem;
 }
 
+@media (min-width: 1200px) and (orientation: landscape) {
+  .nosotrosmain2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .quienesart {
+    padding-left: 5rem;
+  }
+}
 article p {
-    text-align: justify;
+  text-align: justify;
 }
 
-/*==== servicios  ====*/
 .titulo__ {
-    text-align: center;
-    padding: 3rem;
+  text-align: center;
+  padding: 3rem;
 }
+
+/*# sourceMappingURL=styles.css.map */
