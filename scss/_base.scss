@@ -8,6 +8,10 @@
     font-style: bold;
     src: url(../font/gotham-bold.OTF);
 }
+$font: "gotham", sans-serif;
+$fontbold: "gothambold", sans-serif;
+
+
 * {
     margin: 0;
     padding: 0;
@@ -29,9 +33,9 @@ img, iframe {
 }
 
 h2 {
-    font-family: "gothambold", sans-serif;
+    font-family: $fontbold
 }
 
 h3 {
-    font-family: "gothambold", sans-serif;
+    font-family: $fontbold
 }

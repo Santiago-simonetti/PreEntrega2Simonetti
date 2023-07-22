@@ -1,7 +1,12 @@
 .nosotrosmain {
     object-fit: contain;
-    .nosotrosmain img{padding-bottom:1rem;}
+
+    img {
+        padding-bottom: 1rem;
+        gap: 1rem;
+    }
 }
+
 @media (min-width: 1200px) and (orientation:landscape) {
     .nosotrosmain2 {
         display: grid;
@@ -9,7 +14,12 @@
     }
 
     .quienesart {
-        padding-left: 5rem; 
+        padding-left: 5rem;
+
+        article {
+            padding-bottom: 5rem;
+        }
+
     }
 }
 

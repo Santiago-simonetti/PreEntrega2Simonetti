@@ -100,11 +100,17 @@ h1 {
   padding-bottom: 2rem;
 }
 
+.__intro {
+  padding-bottom: 2rem;
+  text-align: justify;
+}
+
 .nosotrosmain {
   object-fit: contain;
 }
-.nosotrosmain .nosotrosmain img {
+.nosotrosmain img {
   padding-bottom: 1rem;
+  gap: 1rem;
 }
 
 @media (min-width: 1200px) and (orientation: landscape) {
@@ -114,6 +120,9 @@ h1 {
   }
   .quienesart {
     padding-left: 5rem;
+  }
+  .quienesart article {
+    padding-bottom: 5rem;
   }
 }
 article p {
